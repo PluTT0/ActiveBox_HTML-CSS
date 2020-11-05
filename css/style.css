@@ -1,0 +1,17 @@
+@import "../css/header.css";
+@import "../css/works.css";
+@import "../css/galery.css";
+@import "../css/team.css";
+
+body{
+font-size: 14px;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
