@@ -90,3 +90,27 @@
   transform: scale(1.1);
   transition: 1s;
 }
+
+@media screen and (max-width:900px) {
+  nav{
+    display: none;
+  }
+  .nav_bar{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:850px){
+  .first_btn{
+    margin-bottom: 100px;
+  }
+  .first_content{
+    padding-top: 100px;
+  }
+  .first_title{
+    font-size: 2.5rem;
+  }
+  .first_subtitle{
+    font-size: 1rem;
+  }
+}

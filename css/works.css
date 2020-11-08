@@ -6,7 +6,6 @@
 .works_content{
   background-color: #fff;
   margin-bottom: 124px;
-  margin-top: 46px;
 }
 
 
@@ -32,7 +31,7 @@
   padding: 35px 0 26px 0;
   color: #2d3033;
   font-family: 'Raleway';
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 700;
   
 }
@@ -40,6 +39,19 @@
 .work_list_subtitle{
   color: #6c7279;
   font-family: 'Raleway';
-  font-size: 14px;
+  font-size: 0.8rem;
   text-align: center;
+}
+
+@media screen and (max-width:1170px){
+  .works_content{
+    margin-bottom: 80px;
+  }
+
+}
+
+@media screen and (max-width:800px){
+  .works_list_items{
+    padding: 50px 15px 0 15px;
+  }
 }

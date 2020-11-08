@@ -1,0 +1,22 @@
+.author{
+  width: 100%;
+  background-color: #313454;
+  
+ 
+}
+
+.author_items{
+  color: #808080;
+  font-family: 'Raleway';
+  font-size: 14px;
+  text-align: center;
+  max-width: 312px;
+  margin: 0 auto;
+  display: block;
+  padding:29px 0;
+}
+
+.author_items i{
+  color: red;
+}
+

@@ -2,6 +2,10 @@
 @import "../css/works.css";
 @import "../css/galery.css";
 @import "../css/team.css";
+@import "../css/susan.css";
+@import "../css/download.css";
+@import "../css/social.css";
+@import "../css/author.css";
 
 body{
 font-size: 14px;
@@ -14,4 +18,11 @@ font-size: 14px;
 
 a{
   text-decoration: none;
+}
+
+
+@media screen and (max-width:1170px) {
+  .container{
+      width: 90%;
+  }
 }
